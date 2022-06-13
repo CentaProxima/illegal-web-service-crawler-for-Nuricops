@@ -1,0 +1,84 @@
+{
+    "blacklist":{
+        "_comment": "url, 웹 내용 필터용 blacklist",
+        "url": ["google", "namu.wiki", "naver.com", "wikipedia.org", "youtube.com", ".go.kr", ".gov", ".ac.kr", "hani.co.kr", "yna.co.kr", "edaily.co.kr", "saramin.co.kr", "news", "journal", "chosun.com", "donga.com", "joongboo.com", "fntoday.co.kr", "dailian.co.kr", "sedaily.com", "khan.co.kr", "ilyoseoul.co.kr", "metroseoul.co.kr"],
+        "content": ["위키", "wiki"]
+    },
+
+    "dobak": {
+        "skeyword":{
+            "_comment": "도박 관련 검색 키워드",
+            "content": [
+                "배팅", "안전공원", "안전놀이터", "토토", "바둑이", "바카라", "카지노", "포커", "홀덤", "경마", "네임드", "다리다리", "홀짝"
+            ]
+        },
+        "ckeyword":{
+            "_comment": "도박 관련 내용 확인 키워드",
+            "content": [
+                "배팅", "사장님", "출금", "안전공원", "안전놀이터", "토토", "바둑이", "바카라", "카지노", "포커", "홀덤", "경마", "네임드", "다리다리", "달팽이", "사다리", "잭팟", "홀짝"
+            ],
+            "check_sequence": 3
+        }
+    },
+    
+    "drug":{
+        "skeyword":{
+            "_comment": "마약 관련 검색 키워드",
+            "content": []
+        },
+        "ckeyword":{
+            "_comment": "마약 관련 내용 확인 키워드",
+            "content": [],
+            "check_sequence": 0
+        }
+    },
+
+    "game":{
+        "skeyword":{
+            "_comment": "불법 게임물 관련 검색 키워드",
+            "content": []
+        },
+        "ckeyword":{
+            "_comment": "불법 게임물 관련 내용 확인 키워드",
+            "content": [],
+            "check_sequence": 0
+        }
+    },
+
+    "account":{
+        "skeyword":{
+            "_comment": "불법 명의거래 관련 검색 키워드",
+            "content": [],
+            "check_sequence": 0
+        },
+        "ckeyword":{
+            "_comment": "불법 명의거래 관련 내용 확인 키워드",
+            "content": [],
+            "check_sequence": 0
+        }
+    },
+
+    "suicide":{
+        "skeyword":{
+            "_comment": "자살 유해정보 관련 검색 키워드",
+            "content": []
+        },
+        "ckeyword": {
+            "_comment": "자살 유해정보 관련 내용 확인 키워드",
+            "content": [],
+            "check_sequence": 0
+        }
+    },
+
+    "gun":{
+        "skeyword":{
+            "_comment": "총기/폭발물 관련 검색 키워드",
+            "content": []
+        },
+        "ckeyword":{
+            "_comment": "총기/폭발물 관련 내용 확인 키워드",
+            "content": [],
+            "check_sequence": 0
+        }
+    }
+}
